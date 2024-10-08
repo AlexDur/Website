@@ -1845,52 +1845,39 @@ display:flex;
     }
   }
 
-.erfahrung-tabelle,
-.ausbildung-tabelle {
-  width: 80%;
-  text-align: left;
-}
-
 .left-cell {
   width: 80%;
   vertical-align: top;
   text-align: left;
+  margin-top:1rem;
 }
 
 .right-cell {
   width: 20%;
   vertical-align: top;
   text-align: right;
+  margin-top:1rem;
 }
 
 .position-title {
   padding-right: 20px;
   font-size: 20px;
-  margin-top: 0;
+  margin-bottom:.3rem;
   color: $detail-color-2;
 }
 
 .position-description {
   padding-right: 20px;
-  margin-top: 0;
+  margin-top:0;
+  margin-bottom: 1rem;
   font-weight: lighter;
 }
 
 .position-date {
-  margin-top: 0;
+  margin-right:0;
   font-size: 20px;
   color: $detail-color-2;
 }
-
-
-.ausbildung-tabelle .left-cell {
-  width: 80%;
-}
-
-.ausbildung-tabelle .right-cell {
-  width: 30%;
-}
-
 
 @media screen and (max-width: 600px){
 
@@ -1901,13 +1888,14 @@ display:flex;
   }
 
   .left-cell {
+    width: 90%;
     margin-top:1rem;
     padding-top:1rem;
     text-align:left;
   }
 
-
   .right-cell {
+    width: 10%;
     margin-top:1rem;
     padding-top:1rem;
     text-align:right;
@@ -1922,6 +1910,23 @@ display:flex;
     animation: 0.5s ease-out 0s 1 slideUp;
   }
 
+  .position-description {
+   text-align:left;
+    font-size:1rem;
+    margin-left:0;
+  }
+
+  .position-title {
+    margin-left:0;
+    font-size: 20px;
+  }
+
+  .position-date {
+    margin-top:1rem;
+    font-size: 20px;
+    color: $detail-color-2;
+  }
+
   .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-text {
     color: $detail-color-2 !important;
     text-decoration:underline;
@@ -1934,6 +1939,14 @@ display:flex;
   .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
     background-color: $tertiary-color !important;
     border-radius: 5px;
+  }
+
+  .kurzvorstellung-component .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: $text-color-text;
   }
 
 }
@@ -1987,9 +2000,6 @@ display:flex;
     margin-right:10px;
     }
   }
-
-
-
 
 
 .listing {
@@ -2063,12 +2073,12 @@ display:flex;
 
   .footer-component {
     display: flex;
+    min-height: 125vh;
     width:100%;
     flex-direction: column;
-    min-height: 100vh;
     align-items: center;
     background:  $detail-color;
-    padding:0px;
+    padding:0;
   }
 
   .box {
