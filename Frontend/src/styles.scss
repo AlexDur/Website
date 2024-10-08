@@ -1898,7 +1898,19 @@ display:flex;
     font-size: 1.2rem !important;
     color: $text-color-unterueberschrift !important;
     font-weight: lighter !important;
+  }
 
+  .left-cell {
+    margin-top:1rem;
+    padding-top:1rem;
+    text-align:left;
+  }
+
+
+  .right-cell {
+    margin-top:1rem;
+    padding-top:1rem;
+    text-align:right;
   }
 
   .tab-menu {
