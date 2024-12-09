@@ -33,7 +33,7 @@ export class ProjekteComponent implements OnInit, OnDestroy{
       title: 'DishList',
       live: 'https://www.dish-list.de/',
       content: 'Eine Webanwendung mit der Rezepte, die man im Web findet, in einer Sammlung anlegen und mit zusätzlichen Information beschreiben kann.',
-      link: 'https://github.com/AlexDur/Dishlist_2_2024/tree/Branches-vereint',
+      link: 'https://github.com/AlexDur/Dishlist_2_2024/tree/main',
       currentImage: 0
     },
     {

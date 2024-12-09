@@ -6,7 +6,7 @@ import {MenubarModule} from 'primeng/menubar';
 import {HeaderComponent} from './header/header.component';
 import {TabViewModule} from 'primeng/tabview';
 import {SharedModule} from 'primeng/api';
-import {ServicesComponent} from '../assets/images/services.component';
+import {ServicesComponent} from './TopMenu/services/services.component';
 import {KontaktComponent} from './TopMenu/kontakt/kontakt.component';
 import {ProjekteComponent} from './TopMenu/projekte/projekte.component';
 import {InputTextModule} from 'primeng/inputtext';
