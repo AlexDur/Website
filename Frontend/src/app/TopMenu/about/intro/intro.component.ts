@@ -16,10 +16,8 @@ import {SharedModule} from '../../../shared/shared.module';
 export class IntroComponent implements OnInit, OnDestroy{
   loaded: boolean = false;
   private subscription: Subscription | null = null;
-  lightboxImageSrc: string | null = null;
 
-
-  constructor(private translateService: TranslateService, private router: Router) {
+  constructor(private translateService: TranslateService) {
   }
 
   ngOnInit() {
@@ -27,7 +25,6 @@ export class IntroComponent implements OnInit, OnDestroy{
       this.loaded = loaded;
     });
   }
-
 
   ngOnDestroy() {
     if (this.subscription) {

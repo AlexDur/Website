@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from './TopMenu/home/home.component';
-import {ServicesComponent} from './TopMenu/services/services.component';
+import {ServicesComponent} from '../assets/images/services.component';
 import {ProjekteComponent} from './TopMenu/projekte/projekte.component';
 import {KontaktComponent} from './TopMenu/kontakt/kontakt.component';
 import {ImpressumComponent} from './impressum/impressum.component';

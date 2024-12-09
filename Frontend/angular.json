@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "C:/Users/alexd/Softwareentwicklung/Webentwicklung/portfolio-website/Version 2 - Dez 2023/Frontend/dist",
+            "outputPath": "C:/Users/alexd/Softwareentwicklung/Webentwicklung/portfolio-website/Version 3 Okt 2024/dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [

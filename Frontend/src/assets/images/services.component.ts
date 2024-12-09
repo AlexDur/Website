@@ -1,14 +1,14 @@
 import {Component, OnDestroy, OnInit, HostListener } from '@angular/core';
-import {TranslateService} from '../../shared/services/translate.service';
+import {TranslateService} from '../../app/shared/services/translate.service';
 import {AsyncPipe, NgIf} from '@angular/common';
-import {SharedModule} from '../../shared/shared.module';
+import {SharedModule} from '../../app/shared/shared.module';
 import {Subscription} from 'rxjs';
-import {TechstackComponent} from '../about/techstack/techstack.component';
+import {TechstackComponent} from '../../app/TopMenu/about/techstack/techstack.component';
 import {AccordionModule} from 'primeng/accordion';
-import {ServicesGrafikComponent} from './services-grafik/services-grafik.component';
-import {ServicesTechstackComponent} from './services-techstack/services-techstack.component';
+import {ServicesGrafikComponent} from '../../app/TopMenu/services/services-grafik/services-grafik.component';
+import {ServicesTechstackComponent} from '../../app/TopMenu/services/services-techstack/services-techstack.component';
 
-import {ServicesArbeitsweiseComponent} from './services-arbeitsweise/services-arbeitsweise.component';
+import {ServicesArbeitsweiseComponent} from '../../app/TopMenu/services/services-arbeitsweise/services-arbeitsweise.component';
 
 @Component({
   selector: 'app-services',
@@ -23,8 +23,8 @@ import {ServicesArbeitsweiseComponent} from './services-arbeitsweise/services-ar
     ServicesTechstackComponent,
     ServicesArbeitsweiseComponent
   ],
-  templateUrl: './services.component.html',
-  styleUrl: './services.component.scss'
+  templateUrl: '../../app/TopMenu/services/services.component.html',
+  styleUrl: '../../app/TopMenu/services/services.component.scss'
 })
 
 export class ServicesComponent implements OnInit, OnDestroy {

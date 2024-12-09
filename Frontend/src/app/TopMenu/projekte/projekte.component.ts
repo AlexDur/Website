@@ -28,7 +28,7 @@ export class ProjekteComponent implements OnInit, OnDestroy{
 
   cards = [
     {
-      images: ['assets/images/splash_orange.png', 'assets/images/neues_rezept.png','assets/images/neue_rezept_gefiltert_mitPfeil.png'],
+      images: ['assets/images/splash_orange.png', 'assets/images/neues_rezept.png','assets/images/rezepte mit bildern.png'],
       header: 'Mobile App/Desktop',
       title: 'DishList',
       live: 'https://www.dish-list.de/',
@@ -64,14 +64,10 @@ export class ProjekteComponent implements OnInit, OnDestroy{
     });
   }
 
-  onCardImageClick(i: number) {
-    const url = this.cards[i].link;
-    window.open(url, '_blank');
-  }
 
   scrollImages(index: number) {
     const card = this.cards[index];
-    card.currentImage = (card.currentImage + 1) % card.images.length; // Wechsel zwischen Bildern
+    card.currentImage = (card.currentImage + 1) % card.images.length;
   }
 
 
