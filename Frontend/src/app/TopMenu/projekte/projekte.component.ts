@@ -28,7 +28,7 @@ export class ProjekteComponent implements OnInit, OnDestroy{
 
   cards = [
     {
-      images: ['assets/images/splash_orange.png', 'assets/images/neues_rezept.png','assets/images/rezepte mit bildern.png'],
+      images: ['assets/images/splash.webp', 'assets/images/intro.webp','assets/images/rerstellung_neu.webp','assets/images/rezeptansicht_dez.webp','assets/images/filtermenü.webp'],
       header: 'Mobile App/Desktop',
       title: 'DishList',
       live: 'https://www.dish-list.de/',
@@ -54,6 +54,8 @@ export class ProjekteComponent implements OnInit, OnDestroy{
       link: '',
       currentImage: 0
     }
+
+
   ];
 
   constructor(private translateService: TranslateService) {}
