@@ -48,7 +48,7 @@ export class ProjekteComponent implements OnInit, OnDestroy{
     {
       images:['assets/images/ad_rund-red75-quad.webp','assets/images/ad_rund-red75-quad.webp'],
       header: 'Mobile App/Desktop',
-      title: 'In Konzeptionsphase (Chatbot)',
+      title: 'In Konzeptionsphase (Schadensüberwachung im Forst)',
       live: '',
       content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam',
       link: '',
