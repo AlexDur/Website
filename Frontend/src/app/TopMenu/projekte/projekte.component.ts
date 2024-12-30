@@ -28,7 +28,7 @@ export class ProjekteComponent implements OnInit, OnDestroy{
 
   cards = [
     {
-      images: ['assets/images/splash.webp', 'assets/images/intro.webp','assets/images/rerstellung_neu.webp','assets/images/rezeptansicht_dez.webp','assets/images/filtermenü.webp'],
+      images: ['assets/images/splash.webp', 'assets/images/intro.webp','assets/images/r_erstellung.webp','assets/images/r_ansicht.webp','assets/images/filtermenü.webp'],
       header: 'Mobile App/Desktop',
       title: 'DishList',
       live: 'https://www.dish-list.de/',
