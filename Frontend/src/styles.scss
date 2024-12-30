@@ -1129,6 +1129,7 @@ display:flex;
 .image-square {
   width: 120px;
   height: 120px;
+  border:1px solid #eae9e9;
   background-color: $secondary-color;
   background-size: cover;
   background-position: center;
@@ -1186,6 +1187,7 @@ display:flex;
   border:10px dot-dash #171717;
 
 }
+
 
 .lightbox {
   display: none;
@@ -1846,7 +1848,7 @@ display:flex;
   }
 
 .left-cell {
-  width: 80%;
+  width: 90%;
   vertical-align: top;
   text-align: left;
   margin-top:1rem;
@@ -1860,14 +1862,15 @@ display:flex;
 }
 
 .position-title {
-  padding-right: 20px;
+  text-align:left !important;
   font-size: 20px;
+  margin-right:10px;
   margin-bottom:.3rem;
   color: $detail-color-2;
 }
 
 .position-description {
-  padding-right: 20px;
+  text-align:left !important;
   margin-top:0;
   margin-bottom: 1rem;
   font-weight: lighter;
@@ -2192,6 +2195,17 @@ display:flex;
 .button-footer .p-button {
   flex: none;
 }
+
+.black-button {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.black-button:hover {
+  background-color: #333;
+}
+
 
 
 .p-footer {
