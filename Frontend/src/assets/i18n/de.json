@@ -8,7 +8,7 @@
   "about": {
     "title": "About",
     "subtitle": "Ich arbeite als Webentwickler in Bonn und setze anspruchsvolle Lösungen in Kundenprojekten für meinen Arbeitgeber um.",
-    "description": "Durch meine unterschiedlichen Erfahrungen in der Entwicklung von Software, sowie meiner vorheriger Tätigkeit in strategischen Positionen, bin ich in der Lage, Softwareprojekte effizient und technisch versiert zu realisieren.",
+    "description": "Durch meine unterschiedlichen Erfahrungen in der Entwicklung von Software, sowie meiner vorheriger Tätigkeit in strategischen Positionen, bin ich in der Lage, Softwareprojekte effizient und technisch versiert in vollem Umfang zu realisieren.",
     "description_two": "Als kompetenter Partner stehe ich Ihnen für die Entwicklung erfolgreicher Webseiten und Webanwendungen (=Webapps) zur Seite. Von der ersten Konzeption bis hin zur finalen Umsetzung biete ich einen umfassenden Service und begleite Sie durch den gesamten Entwicklungsprozess bis zum fertigen Produkt, um Ihre Vision bestmöglich zu verwirklichen.",
     "description_two_alternative":"Zudem beschäftige ich mich in Teilen meiner Freizeit mit einem eigenen kleinen App-Projekten bei denen ich ein weites Spektrum an modernsten Technologien nutze.",
     "button": "Kontaktieren Sie mich"
@@ -354,9 +354,9 @@
     },
   "arbeitsweise": {
     "heading": "Effiziente Softwareentwicklung",
-    "description": "In Software-Projekten ist es entscheidend, das optimale Zusammenspiel zwischen hoher Codequalität und effizienter Entwicklungszeit zu erreichen. Diese Aspekte sind zwischen Entwicklern und Projektpartnern sorgfältig abzustimmen. Dadurch können langlebige Lösungen programmiert werden, die sowohl aktuellen Anforderungen als auch zukünftigen Entwicklungen gerecht werden.",
+    "description": "In Software-Projekten ist es äußert wichtig, das optimale Zusammenspiel zwischen hoher Codequalität und effizienter Entwicklungszeit zu erreichen. Diese Aspekte sind zwischen Entwicklern und Projektpartnern möglichst sorgfältig abzustimmen. Dadurch können langlebige Lösungen programmiert werden, die sowohl aktuellen Anforderungen als auch zukünftigen Entwicklungen gerecht werden.",
     "vorteile": {
-      "heading": "Die Vorteile von qualitativ hochwertigem Code für eine Anwendung:",
+      "heading": "Die wichtigsten Vorteile von qualitativ hochwertigem Code für eine Anwendung:",
       "details": [
         {
           "title": "Zuverlässigkeit und Stabilität",
@@ -364,7 +364,7 @@
         },
         {
           "title": "Kostenersparnis",
-          "description": "Gut strukturierter und dokumentierter Code ist einfacher zu warten und zu erweitern. Das reduziert langfristig die Wartungskosten, da Änderungen oder Erweiterungen schneller und weniger risikobehaftet implementiert werden können."
+          "description": "Gut strukturierter Code ist einfacher zu warten und zu erweitern. Auch eine angemessene Dokumentation ist hierfür hilfreich. Beides senkt langfristig die Wartungskosten, da Änderungen oder Erweiterungen schneller und weniger risikobehaftet implementiert werden können."
         },
         {
           "title": "Verbesserte Nutzererfahrung",
@@ -380,7 +380,7 @@
         },
         {
           "title": "Langfristiger Projekterfolg",
-          "description": "Die Nachhaltigkeit einer Anwendung hängt stark von ihrer Programmierung ab. Modularer und verständlicher Code erleichtert zukünftige Anpassungen und Erweiterungen."
+          "description": "Die Nachhaltigkeit einer Anwendung hängt in großem Maß von ihrer Programmierung ab. Modularer und verständlicher Code erleichtert zukünftige Anpassungen und Erweiterungen."
         }
       ]
     }
