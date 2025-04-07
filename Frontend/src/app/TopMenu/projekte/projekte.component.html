@@ -9,22 +9,27 @@
   <div class="portfolio-component">
     <div *ngFor="let card of cards; let i = index"  class="custom-card">
       <div>
-        <div class="projekt-beschriftung">{{card.title}}</div>
-        <div class="link-container" *ngIf="card.live || card.link">
+          <div class="projekt-beschriftung">{{card.title}}</div>
+
+          <div class="link-container" *ngIf=" card.gps || card.live || card.link">
+            <div *ngIf="card.gps" class="link-item">
+              <a href="{{ card.gps }}" target="_blank" (click)="$event.stopPropagation()" class="link">Google Play Store</a>
+            </div>
           <div *ngIf="card.live" class="link-item">
-            <a href="{{ card.live }}" target="_blank" (click)="$event.stopPropagation()" class="link">Live-Version</a>
+            <a href="{{ card.live }}" target="_blank" (click)="$event.stopPropagation()" class="link">Web</a>
           </div>
           <div *ngIf="card.link" class="link-item">
             <a href="{{ card.link }}" target="_blank" (click)="$event.stopPropagation()" class="link">Github</a>
           </div>
+
         </div>
+
         <div class="projekt-beschriftung-detail">
           <div class="card-header" >{{card.header}}</div>
           <div class="scroll-symbol" (click)="scrollImages(i)">
             <i class="fas fa-chevron-circle-down scroll-icon"></i>
           </div>
         </div>
-
       </div>
       <br>
       <img [src]="card.images[card.currentImage]" alt="{{card.title}}" class="card-image" >

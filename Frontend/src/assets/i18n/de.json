@@ -7,10 +7,11 @@
   },
   "about": {
     "title": "About",
-    "subtitle": "Ich arbeite als Webentwickler in Bonn und setze anspruchsvolle Lösungen in Kundenprojekten für meinen Arbeitgeber um.",
-    "description": "Durch meine unterschiedlichen Erfahrungen in der Entwicklung von Software, sowie meiner vorheriger Tätigkeit in strategischen Positionen, bin ich in der Lage, Softwareprojekte effizient und technisch versiert in vollem Umfang zu realisieren.",
+    "subtitle": "Webentwicklung aus Bonn - technisch stark und strategisch fundiert",
+    "description_zero": "Ich entwickle moderne und maßgeschneiderte Lösungen in Kundenprojekten.",
+    "description": "Durch meine vielseitige Erfahrung in der Softwareentwicklung – kombiniert mit strategischem Denken aus vorherigen Positionen – setze ich Projekte effizient und technisch fundiert um.",
     "description_two": "Als kompetenter Partner stehe ich Ihnen für die Entwicklung erfolgreicher Webseiten und Webanwendungen (=Webapps) zur Seite. Von der ersten Konzeption bis hin zur finalen Umsetzung biete ich einen umfassenden Service und begleite Sie durch den gesamten Entwicklungsprozess bis zum fertigen Produkt, um Ihre Vision bestmöglich zu verwirklichen.",
-    "description_two_alternative":"Zudem beschäftige ich mich in Teilen meiner Freizeit mit eigenen kleinen App-Projekten bei denen ich ein weites Spektrum an modernsten Technologien nutze.",
+    "description_two_alternative":"Neben meiner beruflichen Tätigkeit entwickle ich in meiner Freizeit eigene App-Ideen weiter und erkunde neue Technologien. So bleibe ich stets am Puls der digitalen Innovation.",
     "button": "Kontaktieren Sie mich"
   },
   "menu": {

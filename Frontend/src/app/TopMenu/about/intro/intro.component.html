@@ -1,26 +1,26 @@
 <div *ngIf="loaded; else loading">
   <div class="h1-abweichung">{{ 'about.title' | translate | async }}</div>
+  <div class="h2-abweichung-dunkel">{{ 'about.subtitle' | translate | async }}</div>
 <div class="intro-component">
 
 <div class="intro-block box-links">
 
   <div class="image-grid">
-
     <div class="image-square"></div>
-    <div class="image-square profile-image" (click)="toggleZoom($event)"></div>
-    <div class="image-square gelb"></div>
-    <div class="image-square gruenblau"></div>
-    <div class="image-square bonn-ansicht2" (click)="toggleZoom($event)"></div>
-    <div class="image-square"></div>
+    <div class="image-square profile-image" (mouseenter)="toggleZoom($event)" (mouseleave)="toggleZoom($event)"></div>
     <div class="image-square dishlist"></div>
-    <div class="image-square laptop"></div>
-    <div class="image-square blau"></div>
+    <div class="image-square gruenblau"></div>
+    <div class="image-square bonn-ansicht2" (mouseenter)="toggleZoom($event)" (mouseleave)="toggleZoom($event)"></div>
+    <div class="image-square"></div>
+    <div class="image-square"></div>
+    <div class="image-square "></div>
+    <div class="image-square gelb"></div>
   </div>
 
 </div>
   <div class="intro-block box-rechts">
       <div class="intro-block-text">
-        <p class="p-bright-background">{{ 'about.subtitle' | translate | async }}</p>
+        <p class="p-bright-background">{{ 'about.description_zero' | translate | async }}</p>
         <p class="p-bright-background">{{ 'about.description' | translate | async }}</p>
         <!--<p class="p-bright-background">{{ 'about.description_two' | translate | async }}</p> -->
         <p class="p-bright-background">{{ 'about.description_two_alternative' | translate | async }}</p>
