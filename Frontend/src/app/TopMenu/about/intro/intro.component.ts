@@ -1,9 +1,9 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {async, Subscription} from 'rxjs';
 import {TranslateService} from '../../../shared/services/translate.service';
-import {Router} from '@angular/router';
 import {ButtonModule} from 'primeng/button';
 import {SharedModule} from '../../../shared/shared.module';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-intro',
@@ -17,7 +17,7 @@ export class IntroComponent implements OnInit, OnDestroy{
   loaded: boolean = false;
   private subscription: Subscription | null = null;
 
-  constructor(private translateService: TranslateService) {
+  constructor(private translateService: TranslateService, private router: Router) {
   }
 
   ngOnInit() {
@@ -41,6 +41,9 @@ export class IntroComponent implements OnInit, OnDestroy{
     }
   }
 
+  navigateToPortfolio() {
+    this.router.navigateByUrl('/portfolio');
+  }
 
   protected readonly async = async;
 }
