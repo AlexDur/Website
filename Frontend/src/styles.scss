@@ -1165,9 +1165,20 @@ display:flex;
   background-image: url('../src/assets/images/keyboard-886462_1280.jpg');
 }
 
+$base-shadow: 0 2px 6px rgba(0,0,0,0.05);
+
 .image-square.dishlist {
   cursor:pointer;
   background-image: url('../src/assets/images/orang3_greenish_inside_D_512x512.webp');
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: $base-shadow;
+
+  &:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,1);
+    transform: scale(1.05) rotate(2deg);
+  }
 }
 
 
@@ -1188,9 +1199,9 @@ display:flex;
   background: linear-gradient(to bottom, #5681ed, #163870);
 }
 
-.image-square.black {
-  border:10px dot-dash #171717;
-  background: #3a3a3a;
+.image-square.tastatur_alt {
+  cursor:pointer;
+  background-image: url('../src/assets/images/tastatur_alt.webp');
 }
 
 
@@ -1861,7 +1872,7 @@ display:flex;
   }
 
 .left-cell {
-  width: 90%;
+  width: 80%;
   vertical-align: top;
   text-align: left;
   margin-top:1rem;
