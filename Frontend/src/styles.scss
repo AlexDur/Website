@@ -101,7 +101,6 @@ p {
   font-size:22px;
   padding: 10px 0;
   padding-top: 0;
-
 }
 
 h1{
@@ -1105,14 +1104,7 @@ display:flex;
   .about-background{
     width:100vw;
     height: auto;
-
-
-    background: linear-gradient(
-        to bottom,
-        $tertiary-color 0%,
-        $tertiary-color 100%,
-
-    );
+    background: white;
     font-size: var(--base-font-size);
     font-family: "Calibri","proxima nova light", "Helvetica Neue", "Swiss 7","Verdana", sans-serif;
   }
@@ -1127,13 +1119,10 @@ display:flex;
 }
 
 .image-square {
-  width: 120px;
-  height: 120px;
-  border:1px solid #eae9e9;
-  background-color: $secondary-color;
+  width: 450px;
+  height: 450px;
   background-size: cover;
   background-position: center;
-  border-radius: 10%;
   transition: transform 0.3s ease-in-out;
   outline: none;
   user-select: none;
@@ -1146,7 +1135,7 @@ display:flex;
 }
 
 .image-square.profile-image {
-  background-image: url('../src/assets/images/ich.webp');
+  background-image: url('../src/assets/images/ich_weissVoll.webp');
 }
 
 .image-square.bonn-ansicht2 {
@@ -1173,6 +1162,7 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 1rem;
   padding: 1rem;
+
   box-shadow: $base-shadow;
 
   &:hover {
@@ -1183,20 +1173,24 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
 
 
 .image-square.orange {
-  background: linear-gradient(to top, #da7118, #f5a763);
+  background: linear-gradient(to top, #E17C2F, #F4B183);
 }
 
 .image-square.gruenblau {
-  background: linear-gradient(to bottom, #2dedd4, #12a592);
+  background: linear-gradient(to bottom, #20D4B4, #A2E7DA);
 }
 
 
 .image-square.gelb {
-  background: linear-gradient(to bottom, #f4f003, #cfbe51);
+  background: linear-gradient(to bottom,#F7E63B, #FFF2A6);
 }
 
 .image-square.blau {
   background: linear-gradient(to bottom, #5681ed, #163870);
+}
+
+.image-square.neutral {
+  background: linear-gradient(to bottom, #F4F4F4, #E0E0E0);
 }
 
 .image-square.tastatur_alt {
