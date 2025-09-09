@@ -6,17 +6,17 @@
     "button": "Kontaktieren Sie mich"
   },
   "about": {
-    "title": "About",
+    "title": "About me",
     "subtitle": "Meine Softwareentwicklung - technisch stark und strategisch fundiert",
-    "description_zero": "Ich entwickle moderne Lösungen für Mobiltelefone und als Webanwendungen.",
-    "description": "Durch meine vielseitige Erfahrung in der Softwareentwicklung – kombiniert mit branchenspezifischem Kenntnissen – setze ich Projekte effizient und technisch fundiert um.",
+    "description_zero": "Ich schaffe digitale Lösungen, die nicht nur funktionieren, sondern begeistern – sei es als mobile App oder als Webanwendung. Mein Ziel? Technologie so zu nutzen, dass sie den Alltag meiner Nutzer wirklich verändert.",
+    "description": "Durch meine vielseitige Erfahrung in der Softwareentwicklung – kombiniert mit branchenspezifischen Kenntnissen – setze ich Projekte effizient und technisch fundiert um.",
     "description_two": "Als kompetenter Partner stehe ich Ihnen für die Entwicklung Webanwendungen (=Webapps) zur Seite. Von der ersten Konzeption bis hin zur finalen Umsetzung biete ich einen umfassenden Service und begleite Sie durch den gesamten Entwicklungsprozess bis zum fertigen Produkt, um Ihre Vision bestmöglich zu verwirklichen.",
-    "description_two_alternative":"Ich habe meine eigenen Softwareprodukte bisher immer auf die Ernährung und Landwirtschaft ausgerichtet und dabei stets neueste Technologien angewendet.",
+    "description_two_alternative":"Meine Softwareprodukte sollen die Zukunft der Ernährung und Landwirtschaft mitgestalten. Dafür kombiniere ich neueste Technologien mit nachhaltigen Ideen, um Lösungen zu entwickeln, die die Branche um innovative Details bereichern.",
     "button": "Kontaktieren Sie mich"
   },
   "menu": {
     "home": "Home",
-    "about": "About",
+    "about": "About me",
     "services": "Expertise",
     "portfolio": "Portfolio",
     "contact": "Kontakt"

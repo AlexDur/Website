@@ -32,7 +32,7 @@ export class ProjekteComponent implements OnInit, OnDestroy{
       header: 'Mobile App/Desktop',
       title: 'DishList',
       gps: 'https://play.google.com/store/apps/details?id=com.rezepte_app&hl=de',
-      live: 'https://www.dish-list.de/',
+      live: 'https://www.the-dishlist.com/',
       content: 'Eine Webanwendung mit der Rezepte, die man im Web findet, in einer Sammlung anlegen und mit zusätzlichen Information beschreiben kann.',
       link: 'https://github.com/AlexDur/Dishlist_2_2024/tree/main',
       currentImage: 0

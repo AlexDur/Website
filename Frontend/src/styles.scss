@@ -790,10 +790,12 @@ display:flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  margin-left: -10rem;
 }
 
 .box-rechts {
-  width: 55%;
+  width: 65%;
+  z-index:1000;
 }
 
 
@@ -805,7 +807,8 @@ display:flex;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%
+    border-radius: 50%;
+    z-index:1000;
   }
 
 
