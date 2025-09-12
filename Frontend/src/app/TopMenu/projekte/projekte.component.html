@@ -1,10 +1,16 @@
 <div class="component-width" *ngIf="loaded; else loading">
   <div class="portfolio-top">
   <div class="h1-abweichung">Portfolio</div>
-  <div class="h2-abweichung-dunkel">Aktuelle Projekte</div>
+  <div class="h2-abweichung-dunkel">Vergangene und aktuelle Projekte</div>
   <div class="portfolio-text-box">
-    <p class="portfolio-p" > In meinen eigenen Software-Projekten verfolge ich stets Ideen, die mir im Alltag einen praktischen Nutzen bieten. Sobald ich dann eine funktionsfähige Version entwickelt habe, setze ich mir das Ziel, die Anwendung so weiter auszubauen, dass sie für eine breitere Nutzerbasis attraktiv wird.</p>
+    <p class="portfolio-p"></p>
   </div>
+    <div class="projekt-kategorien">Forschung</div>
+    <p> <em>Migration from Sub-Saharan Africa to the European Union: Does Food Insecurity Play a Role?</em></p>
+    <p>Austrian Journal of Agricultural Economics and Rural Studies [Internet]. 2021;30:103-1. </p>
+    <a href="https://forschung.boku.ac.at/de/publications/140426" class="doi-link">DOI: 10.15203/OEGA_30.13</a>
+
+    <div class="projekt-kategorien">Anwendungsentwicklung</div>
   </div>
   <div class="portfolio-component">
     <div *ngFor="let card of cards; let i = index"  class="custom-card">

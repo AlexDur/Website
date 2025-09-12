@@ -1,18 +1,28 @@
 <div class="services-background">
   <div class="component-width" *ngIf="loaded; else loading">
     <div class="h1-abweichung">{{ 'services.title' | translate | async }}</div>
+    <div class="h2-abweichung-dunkel">Forschung</div>
+    <p>Meine wissenschaftliche Arbeit hat meine methodischen und analytischen Kompetenzen geschärft. Ich bin darin versiert, komplexe Fragestellungen systematisch zu analysieren und mithilfe von quantitativen Methoden zu untersuchen. Insbesondere habe ich Erfahrung im Umgang mit komplexen statistischen Modellen und der Paneldatenanalyse. Diese Fähigkeiten ermöglichen es mir, den Einfluss verschiedener Faktoren auf ein bestimmtes Ziel zu bewerten, datengesteuerte Erkenntnisse zu gewinnen und fundierte Schlussfolgerungen zu ziehen.</p>
+    <div class="techstack-container">
+      <button class="button-tech fe">Analysis</button>
+      <p class="tech-fe"> R&nbsp;&nbsp;|&nbsp;&nbsp;Phyton&nbsp;&nbsp;|&nbsp;&nbsp;PyTorch</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="h2-abweichung-dunkel">Fullstack-Entwicklung</div>
     <div class="services-component">
       <div class="services-text-box">
         <div class="Absatz_eins"></div>
-        <p>Im Laufe der Jahre bin ich durch mein berufliches Umfeld zum Full-Stack-Entwickler geworden. Dadurch gelingt es mir ganze Anwendungen eigenständig zu programmieren. Meine zusätzlichen Fähigkeiten im Bereich des Cloud Computings erhöhen dabei die Effizienz im Entwicklungs- und Veröffentlichungsprozess.</p>
+        <p>Durch mein berufliche Erfahrung arbeite ich inzwischen als Full-Stack-Entwickler. Dadurch gelingt es mir komplette Anwendungen eigenständig zu programmieren. Meine zusätzlichen Fähigkeiten im Bereich des Cloud Computings erhöhen dabei die Effizienz im Entwicklungs- und Veröffentlichungsprozess.</p>
         <div class="service-graph-box" *ngIf="!isDesktop">
           <app-services-grafik></app-services-grafik>
         </div>
         <div class="Absatz_zwei">
           <ul>
-            <li><strong>Frontend: </strong>Am Anfang steht der Entwurf eines ansprechenden Designs für die Anwendung. Im Frontend wird dieser Entwurf in Code umgesetzt. Das Ergebnis ist eine für den Nutzer sichtbare Oberfläche mittels der er mit der Anwendung kommunizieren kann.</li>
-            <li><strong>Backend: </strong>Das Backend ist der für den Nutzer unsichtbare Teil einer Anwendung. Er beinhaltet die Logik, Datenbanken und die Verarbeitung von Daten und kommuniziert mit dem Frontend. Erst durch das Backend wird aus einer ansprechenden Oberfläche eine lebendige und vollfunktionale Anwendung.</li>
+            <li><strong>Frontend: </strong>Am Anfang steht der Entwurf eines nutzerfreundlichen Designs für die Anwendung. Im Frontend wird dieser Entwurf in Code umgesetzt. Das Ergebnis ist eine für die Nutzer sichtbare Oberfläche mittels der er mit der Anwendung kommunizieren kann.</li>
+            <li><strong>Backend: </strong>Das Backend ist der für die  Nutzer unsichtbare Teil einer Anwendung. Er beinhaltet die Logik, Datenbanken und die Verarbeitung von Daten und kommuniziert mit dem Frontend. Erst durch das Backend wird aus der Oberfläche eine vollfunktionale Anwendung.</li>
           </ul>
         </div>
       </div>

@@ -16,7 +16,12 @@ $text-color-ueberschrift-dunkel:#333333;
 $text-color-unterueberschrift-dunkel:#757575;
 $text-color-text-dunkel:#7f7f7f;
 
-
+:host {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
 
 :root {
   --base-font-size: 16px;
@@ -35,18 +40,17 @@ body,html{
 .services-background {
   height: 100%;
   width:100vw;
-  background: linear-gradient(
-      to bottom,
-      $tertiary-color 0%,
-      $tertiary-color 33%,
-      $secondary-color 33%,
-      $secondary-color 65%,
-      $tertiary-color 65%,
-      $tertiary-color 100%,
-  );
+
   background-size:  500vh;
   font-size: var(--base-font-size);
   font-family: "Calibri","proxima nova light", "Helvetica Neue", "Swiss 7","Verdana", sans-serif;
+}
+
+.projekt-kategorien{
+  margin-top:3rem;
+  font-size:20px;
+  font-weight:bold;
+  color: black;
 }
 
 .homeback-background::after {
@@ -1346,11 +1350,9 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
     background: linear-gradient(
         to bottom,
         $tertiary-color 0%,
-        $tertiary-color 36%,
-        $secondary-color 36%,
-        $secondary-color 70%,
-        $tertiary-color 70%,
-        $tertiary-color 100%,
+        $tertiary-color 53%,
+        $secondary-color 53%,
+        $secondary-color 100%,
     );
     background-size: cover;
     font-size: var(--base-font-size);
@@ -1422,10 +1424,10 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
 
 /*Techstack-Services*/
 
-.techstack-services{
-  margin-top:11rem;
-  padding-top:6rem;
-}
+/*.techstack-services{
+  margin-top:1rem;
+  padding-top:2rem;
+}*/
 
 .techstack-graph{
   margin-top:4rem;
@@ -1479,6 +1481,7 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
   border:3px solid $detail-color-2;
   color:$detail-color-2;
   cursor:auto;
+  padding:1rem;
 }
 
 
@@ -1495,6 +1498,10 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
 .tech-tool{
   width:75%;
   color:$detail-color-2;
+}
+
+.doi-link {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
@@ -1631,7 +1638,7 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
     grid-gap: 25px;
     text-align: left;
     align-items: stretch;
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding-bottom:5rem;
     animation: 0.5s ease-out 0s 1 slideUp;
   }
