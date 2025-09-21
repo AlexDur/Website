@@ -5,20 +5,45 @@
     "description": "Dabei setze ich auf die neuesten Technologien und Standards, um Ihnen eine Webseite zu bieten, die nicht nur gut aussieht, sondern auch schnell und sicher ist.",
     "button": "Kontaktieren Sie mich"
   },
+  "common": {
+    "loading": "Lädt..."
+  },
   "about": {
     "title": "About me",
     "subtitle": "Meine Softwareentwicklung - technisch stark und strategisch fundiert",
-    "description_zero": "Für mich ist Software mehr als nur ein Werkzeug: Sie ist der Schlüssel, um komplexe Forschungsfragen zu beantworten und gleichzeitig konkrete Produkte zu entwickeln, die das Leben der Menschen einfacher machen.",
+    "description_zero": "Mit einem Hintergrund in Agrarökonomie und mehrjähriger Tätigkeit als Softwareentwickler im Finanzsektor bereite ich mich auf den Einstieg in die Entwicklungsforschung vor. Mein Schwerpunkt liegt darauf, wie digitale Technologien Ernährungssicherheit und nachhaltige Landwirtschaft in Ländern mit niedrigem und mittlerem Einkommen (LMICs) unterstützen können.",
     "description": "Durch meine vielseitige Erfahrung in der Softwareentwicklung – kombiniert mit meinem Agrarhintergrund – setze ich Projekte effizient und technisch fundiert um.",
     "description_two": "Als kompetenter Partner stehe ich Ihnen für die Entwicklung Webanwendungen (=Webapps) zur Seite. Von der ersten Konzeption bis hin zur finalen Umsetzung biete ich einen umfassenden Service und begleite Sie durch den gesamten Entwicklungsprozess bis zum fertigen Produkt, um Ihre Vision bestmöglich zu verwirklichen.",
-    "description_two_alternative":"Meine Forschung und Softwareprodukte gestalten die Zukunft der Ernährung und Landwirtschaft aktiv mit, um die Gesundheit von Mensch und Natur nachhaltig zu verbessern.",
-    "button": "Kontaktieren Sie mich"
+    "description_two_alternative":"Mit Forschungsideen und Softwareprojekten möchte ich zur Zukunft von Ernährung und Landwirtschaft beitragen – mit dem Ziel, die Gesundheit von Menschen und Natur nachhaltig zu verbessern.",
+    "button": "Kontaktieren Sie mich",
+    "interestszero": "Forschungsinteressen",
+    "interestsone": "Ernährungssicherheit und Resilienz",
+    "intereststwo": "Digitale Landwirtschaft in Niedrig- und Mitteleinkommensländern (LMICs)",
+    "intereststhree": "One-Health-Ansätze"
   },
+  "cv": {
+    "work": {
+      "position-title": "Fullstack-Entwickler bei Conet Solutions (Bonn)",
+      "position-title2": "Frontend-Entwickler bei IT-Manufactory (Bonn, Passau)",
+      "position-title3": "Unternehmensberater bei AFC Consulting (Bonn)",
+      "position-title4": "Universität für Bodenkultur Wien",
+      "position-title5": "Universität Hohenheim (Stuttgart)",
+      "position-description": "Neuentwicklung einer Fullstack-App für eine große Behörde im Kontext der Wertschöpfungskette von Unternehmen",
+      "position-description2": "Erstellung von Features im Frontend innerhalb verschiedener Module der Digital Machinery Software",
+      "position-description3": "Agronomische und strategische Beratung in den Bereichen Lebensmittelwertschöpfungskette und Smart Farming",
+      "position-description4": "Dipl.-Ingenieur Agrarökonomie (äqui. Master of Science)",
+      "position-description5": "Agrarwissenschaften (Bachelor of Science)",
+      "position-date": "Seit 2022"
+
+    }
+  },
+
   "menu": {
     "home": "Home",
     "about": "About me",
     "services": "Expertise",
-    "portfolio": "Portfolio",
+    "publications": "Publikationen",
+    "portfolio": "Software",
     "contact": "Kontakt"
   },
   "contact": {
@@ -44,15 +69,42 @@
     "web-design": {
       "title": "Webdesign",
       "description": "Ich entwickle moderne Webseiten und Webanwendungen für Kleinunternehmen. Dabei setze ich auf die neuesten Technologien und Standards, um Ihnen eine Webseite zu bieten, die nicht nur gut aussieht, sondern auch schnell und sicher ist."
+    },
+    "research": {
+      "title": "Forschung",
+      "description": "Durch das wissenschaftliche Arbeiten habe ich meine methodischen und analytischen Kompetenzen geschärft. Ich bin darin versiert, komplexe Fragestellungen systematisch zu analysieren und mithilfe von quantitativen Methoden zu untersuchen. Insbesondere habe ich Erfahrung im Umgang mit komplexen statistischen Modellen und der Paneldatenanalyse. Diese Fähigkeiten ermöglichen es mir, den Einfluss verschiedener Faktoren auf ein bestimmtes Ziel zu bewerten, datengesteuerte Erkenntnisse zu gewinnen und fundierte Schlussfolgerungen zu ziehen.",
+      "analysis": {
+        "title": "Analysis"
+      }
+    },
+    "fullstack": {
+      "title": "Fullstack-Entwicklung",
+      "description": "Durch mein berufliche Erfahrung arbeite ich inzwischen als Full-Stack-Entwickler. Dadurch gelingt es mir komplette Anwendungen eigenständig zu programmieren. Meine zusätzlichen Fähigkeiten im Bereich des Cloud Computings erhöhen dabei die Effizienz im Entwicklungs- und Veröffentlichungsprozess.",
+      "frontend": {
+        "title": "Frontend",
+        "description": "Am Anfang steht der Entwurf eines nutzerfreundlichen Designs für die Anwendung. Im Frontend wird dieser Entwurf in Code umgesetzt. Das Ergebnis ist eine für die Nutzer sichtbare Oberfläche mittels der er mit der Anwendung kommunizieren kann."
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Das Backend ist der für die Nutzer unsichtbare Teil einer Anwendung. Er beinhaltet die Logik, Datenbanken und die Verarbeitung von Daten und kommuniziert mit dem Frontend. Erst durch das Backend wird aus der Oberfläche eine vollfunktionale Anwendung."
+      }
     }
   },
   "portfolio": {
-    "title": "An diesen Projekten arbeite ich aktuell",
-    "description": "....."
+    "title": "Publikationen",
+    "subtitle": "Vergangene und aktuelle Projekte",
+    "categories": {
+      "research": "Forschung",
+      "dev": "Anwendungsentwicklung"
+    }
   },
-  "code-principles": {
-    "offer": "Mein Angebot",
-    "description": "Ich habe mich auf Webdesign und -entwicklung für kleine Unternehmen im deutsch- und englischsprachigem Raum spezialisiert. Jede Zeile des Codes wird von Hand geschrieben, um die beste Leistung zu gewährleisten, die dazu beiträgt, mehr Kunden auf Ihre Website zu bringen und mehr Einnahmen für Ihr Unternehmen zu erzielen."
+  "software": {
+    "title": "Software",
+    "subtitle": "Vergangene und aktuelle Projekte",
+    "categories": {
+      "research": "Forschung",
+      "dev": "Anwendungsentwicklung"
+    }
   },
   "footer": {
     "legal-notice": "Impressum",

@@ -533,19 +533,31 @@ ul li a:hover {
     color: white ;
   }
 
-  .p-toggleButton .p-button {
-    border-radius: 50px !important;
-  }
+.p-togglebutton.p-button {
+  border-radius: 50px !important;
+}
 
-  .p-toggleButton:hover {
-    border: 1px solid black;
-  }
+.p-togglebutton.p-button,
+.p-togglebutton.p-button.p-highlight {
+  background-color: var(--surface-100) !important;
+  border: 1px solid var(--surface-300) !important;
+  color: var(--text-color) !important;
+  box-shadow: none !important;
+}
 
-  .p-togglebutton.p-button.p-highlight {
-    background-color: black;
-    border: 1px solid white;
-    color:white;
-  }
+
+.p-togglebutton.p-button:not(.p-disabled):hover,
+.p-togglebutton.p-button.p-highlight:not(.p-disabled):hover {
+  background-color: var(--surface-100) !important;
+  border-color: #000 !important;
+  color: var(--text-color) !important;
+}
+
+
+.p-togglebutton .p-button-label {
+  font-weight: 600;
+}
+
 
   .p-button:focus {
     border: 1px solid black;
@@ -1121,13 +1133,13 @@ display:flex;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
   margin-top: 20px;
-  margin-left: 0;
+  margin-left: 3rem;
   padding-left: 0;
 }
 
 .image-square {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease-in-out;
@@ -1145,21 +1157,7 @@ display:flex;
   background-image: url('../src/assets/images/ich_weissVoll.webp');
 }
 
-.image-square.bonn-ansicht2 {
-  background-image: url('../src/assets/images/bonn_ansicht2-cut.jpg');
-}
 
-.image-square.code {
-  background-image: url('../src/assets/images/code3-1.webp');
-}
-
-.image-square.pcs {
-  background-image: url('../src/assets/images/laptop-2.webp');
-}
-
-.image-square.laptop {
-  background-image: url('../src/assets/images/keyboard-886462_1280.jpg');
-}
 
 $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
 
@@ -1994,7 +1992,7 @@ $base-shadow: 0 2px 6px rgba(0,0,0,0.05);
     padding-left: 20vw;
     padding-right: 20vw;
     height: 21rem;
-    background:  $detail-color;
+    background: #d5d4d4;
   }
 
   .box {

@@ -14,7 +14,8 @@ const routes: Routes = [
   { path: 'about', loadChildren: () => import('./TopMenu/about/about.module').then(m => m.AboutModule) },
   { path: 'services', component: ServicesComponent },
   { path: 'portfolio', component: ProjekteComponent },
-  /* { path: 'contact', component: KontaktComponent },*/
+  { path: 'publications', component: KontaktComponent },
+  { path: 'software', component: ProjekteComponent },
   { path: 'legal-notice', component: ImpressumComponent },
   { path: 'data-protection', component: DatenschutzComponent },
   { path: 'faq', component: FaqComponent },

@@ -23,15 +23,26 @@ import {TechstackComponent} from './TopMenu/about/techstack/techstack.component'
 import {ScrollUpButtonComponent} from './shared/scroll-up-button/scroll-up-button.component';
 import {ServicesGrafikComponent} from './TopMenu/services/services-grafik/services-grafik.component';
 import {ServicesTechstackComponent} from './TopMenu/services/services-techstack/services-techstack.component';
-import { HttpClientModule } from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ServicesArbeitsweiseComponent} from './TopMenu/services/services-arbeitsweise/services-arbeitsweise.component';
 import {CookieDialogComponent} from './cookies-dialog/cookies-dialog.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+// eslint-disable-next-line require-jsdoc
+export function HttpLoaderFactory() {
+  return new TranslateHttpLoader();
+}
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+
   ],
   imports: [
     CommonModule,
@@ -59,7 +70,14 @@ import {CookieDialogComponent} from './cookies-dialog/cookies-dialog.component';
     ServicesArbeitsweiseComponent,
     BrowserAnimationsModule,
     CookieDialogComponent,
-    HttpClientModule
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
   ],
   providers: [],
   exports: [

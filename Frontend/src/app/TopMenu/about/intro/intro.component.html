@@ -6,16 +6,23 @@
   <div class="intro-block box-rechts">
     <div class="intro-block-text">
       <p class="p-bright-background">{{ 'about.description_zero' | translate | async }}</p>
-<!--      <p class="p-bright-background">{{ 'about.description' | translate | async }}</p>-->
       <p class="p-bright-background">{{ 'about.description_two_alternative' | translate | async }}</p>
+      <p> <strong> {{ 'about.interestszero' | translate | async }}:</strong></p>
+      <p>
+        {{ 'about.interestsone'   | translate | async }} |
+        {{ 'about.intereststwo'   | translate | async }} |
+        {{ 'about.intereststhree' | translate | async }}
+      </p>
+
     </div>
   </div>
+
+
 
 <div class="intro-block box-links">
 
   <div class="image-grid">
     <div class="image-square profile-image"></div>
-   <!-- <button class="image-square dishlist" (click)="navigateToPortfolio()"></button>-->
   </div>
 
 </div>

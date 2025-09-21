@@ -38,8 +38,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.subscription = this.translateService.areTranslationsLoaded().subscribe(loaded => {
-      this.loaded = loaded;
+    this.translateService.use('de').subscribe(() => {
+      this.loaded = true;
     });
   }
 

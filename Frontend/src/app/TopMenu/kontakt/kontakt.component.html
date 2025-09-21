@@ -1,71 +1,18 @@
 <div class="component-width" *ngIf="loaded; else loading">
-  <div class="contact-center-text">
-    <h1 class="contact-titel">{{ 'contact.text-one' | translate | async }}</h1>
-    <div class="p-abweichung">Sie interessieren sich für eine neue Website, eine Webanwendung oder haben eine Frage?<br>Schreiben Sie mir gerne eine Nachricht! Sie erhalten innerhalb von <strong>24 Stunden </strong> eine Antwort.</div>
-    <div class="contact-component">
-      <div class="container">
-        <!-- Formular beginnt hier -->
-        <form #kontaktForm="ngForm" (ngSubmit)="onSubmit(kontaktForm)">
-          <div class="name-email-row">
-            <div class="contact-col">
-              <label class="contact-label" for="firstName" style="color:#898989;">{{'contact.name' | translate | async }}
-                <span class="pflicht-sternchen">*</span>
-              </label>
-              <input id="firstName" name="name" type="text" class="custom-input" required ngModel />
-            </div>
-            <div class="contact-col">
-              <label class="contact-label" for="email" style="color:#898989;">{{'contact.email' | translate | async }}
-                <span class="pflicht-sternchen">*</span>
-              </label>
-              <input id="email" name="email" type="email" class="custom-input" required ngModel />
-            </div>
-          </div>
-
-          <div class="contact-col">
-            <label class="contact-label" for="message" style="color:#898989;">{{'contact.message' | translate | async }}
-              <span class="pflicht-sternchen">*</span>
-            </label>
-            <textarea id="message" name="message" class="custom-textarea" required ngModel></textarea>
-          </div>
-
-          <div class="contact-label">
-            <label >
-              <div class="contact-row">
-                <input type="checkbox" name="data-protection" id="data-protection" required ngModel class="contact-checkbox">
-                <br>
-                <div class="datenschutz-p">Ich habe die
-                  <a href='/data-protection'>Erklärung zum Datenschutz</a>&nbsp; zur Kenntnis genommen.
-                  <span class="pflicht-sternchen">*</span>
-                </div>
-
-              </div>
-               </label>
-            <div class="datenschutz-p">Mit <span class="detail-farbe">&nbsp;*&nbsp;</span> markierte Felder sind Pflichtfelder.</div>
-          </div>
-          <br><br>
-          <div class="button-container">
-            <button
-              type="submit"
-              [disabled]="!kontaktForm.valid"
-              class="form-button">
-              Anfrage Abschicken
-            </button>
-          </div>
-
-
-          <div *ngIf="submissionSuccess === true" class="success-message">
-            Ihre Nachricht wurde erfolgreich versendet.
-          </div>
-          <div *ngIf="submissionSuccess === false" class="error-message">
-            Ihre Nachricht wurde erfolgreich versendet.
-          </div>
-
-        </form>
-
-      </div>
-    </div>
+  <div class="portfolio-top">
+    <div class="h1-abweichung">{{ 'portfolio.title' | translate | async }}</div>
+    <div class="projekt-kategorien">{{ 'portfolio.categories.research' | translate | async }}</div>
+    <ul>
+      <li>Migration from Sub-Saharan Africa to the European Union: Does Food Insecurity Play a Role?
+      <p><em>Austrian Journal of Agricultural Economics and Rural Studies.</em>(2021), 30(1), 103-113.</p>
+      <a href="https://forschung.boku.ac.at/de/publications/140426" class="doi-link">DOI: 10.15203/OEGA_30.13</a></li>
+      <br>
+      <li><em>Work in progress</em></li>
+    </ul>
   </div>
+
 </div>
+
 <ng-template #loading>
   <p>Lädt...</p>
 </ng-template>

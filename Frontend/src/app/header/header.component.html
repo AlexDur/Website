@@ -17,14 +17,13 @@
            [ngClass]="{'active-menu-item': activeItem === item.url}">
           {{ item.label }}
         </a>
+        <p-toggleButton [(ngModel)]="isEnglish"
+                        (onChange)="toggleLanguage()"
+                        onLabel="en"
+                        offLabel="de">
+        </p-toggleButton>
     </div>
 
-  <!--  <div>
-      <p-toggleButton [(ngModel)]="checked"
-                      pTooltip="Language switching feature is currently under development"
-                      tooltipPosition="right" onLabel="EN" offLabel="DE" class="custom-tooltip">
-      </p-toggleButton>
-    </div>-->
   </div>
   </div>
 </div>

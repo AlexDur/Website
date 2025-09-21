@@ -1,0 +1,397 @@
+{
+  "home": {
+    "title": "Custom software from a single source.",
+    "subtitle": "Websites and web applications that optimally support small businesses and freelancers.",
+    "description": "I rely on the latest technologies and standards to offer you a website that not only looks great but is also fast and secure.",
+    "button": "Contact me"
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "My software development – technically strong and strategically sound",
+    "description_zero": "With a background in agricultural economics and several years as a software engineer, I am preparing to transition into development research. My focus is on how digital tools can contribute to food security and public health in low- and middle-income countries (LMICs).",
+    "description": "Through my diverse experience in software development – combined with my agricultural background – I implement projects efficiently and with a strong technical foundation.",
+    "description_two": "As a competent partner, I am at your side for the development of web applications (=web apps). From the initial concept to the final implementation, I offer a comprehensive service and guide you through the entire development process to the finished product, to best realize your vision.",
+    "description_two_alternative": "I want to contribute to the future of nutrition and agriculture with research ideas and software projects – with the aim of sustainably improving the health of people and nature.",
+    "button": "Contact me",
+    "interestszero": "Research interests",
+    "interestsone": "Food security and Resilience",
+    "intereststwo": "Digital Agriculture in low- and middle-income countries (LMICs)",
+    "intereststhree": "One Health approaches"
+  },
+  "cv": {
+    "work": {
+      "position-title": "Fullstack-Engineer at Conet Solutions (Bonn)",
+      "position-title2": "Frontend-Entwickler at IT-Manufactory (Passau)",
+      "position-title3": "Consultant bei AFC Consulting (Bonn)",
+      "position-title4": "Consultant bei AFC Consulting (Bonn)",
+      "position-title5": "University of Hohenheim (Stuttgart)",
+      "position-description": "New development of a full-stack app for a large public authority in the context of the corporate value chain",
+      "position-description2": "Creation of features in the front end within various modules of the Digital Machinery software",
+      "position-description3": "Agronomic and strategic consulting in the areas of food value chain and smart ",
+      "position-description4": "Dipl.-Ingenieur Agricultural Economics (equi. Master of Science)",
+      "position-description5": "Agricultural Sciences (Bachelor of Science)",
+      "position-date": "Since 2022"
+    }
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About me",
+    "services": "Expertise",
+    "publications": "Publications",
+    "portfolio": "Software",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Contact",
+    "text-one": "I am happy to advise you.",
+    "text-two": "Are you interested in a new website, a web application, or do you have a question? Feel free to send me a message! You will receive a response within 24 hours.",
+    "name": "Name",
+    "business": "Company",
+    "email": "Email",
+    "phone": "Phone number",
+    "message": "Message",
+    "send": "Send",
+    "data-protection-declaration": "By submitting my request, I agree to the collection, processing, and use of my personal data in accordance with this website's data protection regulations. I have read and understood the privacy policy and the information on revocation."
+  },
+  "services": {
+    "title": "Expertise",
+    "description-title": "Modern and powerful application development for the web",
+    "description": "I offer a complete range of services for the development of websites and web applications. I rely on the latest technologies and standards to provide you with a website that not only looks great but is also fast and secure.",
+    "research": {
+      "title": "Research",
+      "description": "My academic work has sharpened my methodological and analytical skills. I am adept at systematically analyzing complex questions and examining them using quantitative methods. In particular, I have experience with complex statistical models and panel data analysis. These abilities enable me to assess the impact of various factors on a given objective, derive data-driven insights, and draw sound conclusions.",
+      "analysis": {
+        "title": "Analysis"
+      }
+    },
+    "fullstack": {
+      "title": "Full-stack Development",
+      "description": "Drawing on my professional experience, I now work as a full-stack developer. This enables me to build complete applications end-to-end. My additional skills in cloud computing increase efficiency across development, deployment, and release.",
+      "frontend": {
+        "title": "Frontend",
+        "description": "A user-friendly design is conceived first. In the frontend, this design is implemented in code, resulting in the visible interface through which users interact with the application."
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "The backend is the part of an application that is invisible to users. It comprises the logic, databases, and data processing, and communicates with the frontend. Only with the backend does the application become fully functional."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Publications",
+    "subtitle": "Vergangene und aktuelle Projekte",
+    "categories": {
+      "research": "Forschung",
+      "dev": "Anwendungsentwicklung"
+    }
+  },
+  "software": {
+    "title": "Software",
+    "subtitle": "Past and current projects",
+    "categories": {
+      "research": "Research",
+      "dev": "Application development"
+    }
+  },
+  "code-principles": {
+    "offer": "My offer",
+    "description": "I specialize in web design and development for small businesses in German and English-speaking regions. Every line of code is written by hand to ensure the best performance, which helps to bring more customers to your website and generate more revenue for your business."
+  },
+  "footer": {
+    "legal-notice": "Legal Notice",
+    "address": "Address"
+  },
+  "data-protection": {
+    "title": "Privacy Policy",
+    "sections": {
+      "1": {
+        "heading": "1. Data Protection at a Glance",
+        "content": {
+          "general-notice": "The following notes provide a quick overview of what happens to your personal data when you visit this website. Personal data is all data with which you can be personally identified. Detailed information can be found in the full privacy policy below.",
+          "data-collection": {
+            "heading": "Data Collection on this Website",
+            "items": {
+              "responsible": "Data processing on this website is carried out by me as the website operator. My contact details can be found in the section “Information about the Responsible Party”.",
+              "collection-methods": {
+                "heading": "Collection of Your Data",
+                "direct": "Your data is collected in two ways: Directly, when you provide it to me, e.g., by entering it into a contact form.",
+                "automatic": "Automatically, when you visit the website, technical data (e.g., internet browser, operating system, time of page view) is automatically collected by my IT systems. This happens after your consent."
+              },
+              "purpose": "Some of the data is required to provide the website without errors, while other data can be used to analyze your user behavior.",
+              "rights": "You have the right to receive information about the origin, recipient, and purpose of your stored personal data at any time and free of charge. You can request the correction, deletion, or restriction of the processing of your data, as well as revoke consent given for data processing for the future. You also have a right to complain to the competent supervisory authority."
+            }
+          },
+          "questions": "Questions about data protection? You can contact me at any time.",
+          "analysis": "When visiting this website, your surfing behavior can be statistically evaluated, primarily through so-called analysis programs. Detailed information on this can be found in the full privacy policy."
+        }
+      },
+      "2": {
+        "heading": "2. Hosting",
+        "content": {
+          "external-hosting": {
+            "description": "The content of my website is hosted by an external provider. This means that personal data collected on this website is stored on the hoster's servers. This can include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website access, and other data generated via the website.",
+            "data-security": "The hoster processes your data only to the extent necessary to fulfill his contractual obligations and exclusively according to my instructions.",
+            "current-host": "I use the services of netcup.com as a hosting provider."
+          }
+        }
+      },
+      "3": {
+        "heading": "3. General Information and Mandatory Disclosures",
+        "content": {
+          "general-notices-heading": "General Information and Mandatory Disclosures",
+          "data-protection-heading": "Data Protection",
+          "data-protection-description": "The protection of your personal data is very important to me. I treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.",
+          "data-collection-description": "When you visit this website, various personal data is collected. This privacy policy explains what data I collect, how I use it, and for what purpose.",
+          "internet-security-warning": "Security vulnerabilities on the internet: Please note that data transmission on the internet (e.g., when communicating by email) can have security vulnerabilities. Complete protection of data from access by third parties is not possible.",
+          "responsible-office-heading": "Responsible Party",
+          "responsible-office-description": "Responsible for data processing:",
+          "responsible-person": "Alexander Durach<br>Carl-Justi-Straße 23<br>D-53121 Bonn",
+          "responsible-definition": "The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data.",
+          "data-retention-heading": "Storage Duration",
+          "data-retention-description": "Your personal data remains with me until the purpose for data processing no longer applies. If you request deletion or revoke your consent to data processing, your data will be deleted, unless there are other legal reasons for storage (e.g., tax retention periods).",
+          "legal-basis-heading": "Legal Basis for Data Processing",
+          "legal-basis-description": "Data processing takes place on various legal bases, depending on the type and purpose of the processing:",
+          "legal-basis-items": {
+            "consent": "Consent (Art. 6 para. 1 lit. a GDPR): If you have given your consent to the data processing.",
+            "contract": "Fulfillment of contract (Art. 6 para. 1 lit. b GDPR): If the data is required for the fulfillment of a contract or for pre-contractual measures.",
+            "legal-obligation": "Legal obligations (Art. 6 para. 1 lit. c GDPR): If I am legally obligated to process your data.",
+            "legitimate-interest": "Legitimate interest (Art. 6 para. 1 lit. f GDPR): If the processing is necessary to protect my legitimate interests or those of a third party."
+          },
+          "data-transfer-heading": "Data Transfer to Unsafe Third Countries",
+          "data-transfer-description": "In some cases, I use tools from providers in third countries that are unsafe under data protection law, including the USA. In such cases, I point out that a comparable level of data protection cannot always be guaranteed. Data transfers to the USA only take place if the recipient is certified under the “EU-US Data Privacy Framework” (DPF) or has additional guarantees.",
+          "data-recipients-heading": "Recipients of Personal Data",
+          "data-recipients-description": "I work with external entities that may receive personal data if this is necessary for the fulfillment of a contract, due to legal obligations, or within the scope of my legitimate interest. A transfer only takes place on the basis of a valid contract for commissioned processing or a joint processing agreement.",
+          "rights-heading": "Your Rights",
+          "rights-items": {
+            "withdrawal": "Revocation of your consent: You can revoke a given consent at any time. The legality of the processing carried out until the revocation remains unaffected.",
+            "objection": "Right to object (Art. 21 GDPR): You have the right to object to the processing of your personal data at any time, for reasons arising from your particular situation, if the processing is based on Art. 6 para. 1 lit. e or f GDPR. If your data is used for direct marketing, you can object to the processing at any time.",
+            "complaint": "Right to complain: In the event of a violation of the GDPR, you have the right to file a complaint with the competent supervisory authority.",
+            "additional-rights": "Other rights: You have the right to information, correction, deletion, and restriction of the processing of your personal data, as well as the right to data portability."
+          },
+          "encryption-heading": "SSL or TLS Encryption",
+          "encryption-description": "For security reasons and to protect the transmission of confidential content, this site uses SSL or TLS encryption. You can recognize an encrypted connection by the address line of the browser (“https://”) and the lock symbol.",
+          "encryption-benefit": "When SSL or TLS encryption is activated, the data you transmit to me cannot be read by third parties."
+        }
+      },
+      "4": {
+        "heading": "4. Data Collection on this Website",
+        "content": {
+          "cookies-heading": "Cookies",
+          "cookies-description": "My website uses cookies to ensure various functions. Cookies are small data packets that are stored on your device and do not cause any harm. There are two types of cookies:",
+          "cookies-types": {
+            "session-cookies": "Session cookies: These are only stored for the duration of your visit and are automatically deleted when you leave the website.",
+            "permanent-cookies": "Persistent cookies: These remain stored on your device until you delete them yourself or they are automatically deleted by your browser."
+          },
+          "cookies-sources": "Cookies can originate either directly from me (first-party cookies) or from third-party providers (third-party cookies). Third-party cookies enable, for example, the processing of payment services.",
+          "cookies-functions": {
+            "technical-cookies": "Technically necessary cookies: Without these, certain functions of the website would not work correctly (e.g., shopping cart function, video display).",
+            "analytics-cookies": "Analytics cookies: These cookies are used to analyze your user behavior or to show you targeted advertising."
+          },
+          "cookies-storage-basis": "The storage of necessary cookies is based on my legitimate interest (Art. 6 para. 1 lit. f GDPR) in the technically flawless and optimized provision of my services. If your consent is required (e.g., for analytics cookies), processing is based exclusively on this consent (Art. 6 para. 1 lit. a GDPR). You can revoke your consent at any time.",
+          "cookies-browser-settings": "You have the option to set your browser so that you are informed about the setting of cookies, allow cookies only in individual cases, exclude the acceptance of cookies for certain cases or in general, and activate the automatic deletion of cookies when the browser is closed. Deactivating cookies may limit the functionality of the website.",
+          "logfiles-heading": "Server log files",
+          "logfiles-description": "The hosting provider of my website automatically collects and stores information in so-called server log files that your browser automatically transmits to me. These include:",
+          "logfiles-items": {
+            "browser-type": "Browser type and browser version",
+            "operating-system": "Operating system used",
+            "referrer-url": "Referrer URL",
+            "hostname": "Hostname of the accessing computer",
+            "request-time": "Time of the server request",
+            "ip-address": "IP address"
+          },
+          "logfiles-processing-basis": "This data is not merged with other data sources. Processing is based on my legitimate interest (Art. 6 para. 1 lit. f GDPR) in the technically flawless display and optimization of my website.",
+          "contact-form-heading": "Contact Form",
+          "contact-form-description": "If you send me inquiries via the contact form, your details from the form, including the contact data you provided, will be stored by me for the purpose of processing the inquiry and in case of follow-up questions. I will not share this data without your consent.",
+          "contact-form-processing-basis": "The processing of this data is based on Art. 6 para. 1 lit. b GDPR, insofar as your inquiry is necessary for the fulfillment of a contract or for the implementation of pre-contractual measures. In all other cases, processing is based on my legitimate interest (Art. 6 para. 1 lit. f GDPR) in the effective processing of inquiries addressed to me or on your consent (Art. 6 para. 1 lit. a GDPR). You can revoke your consent at any time.",
+          "contact-form-retention": "The data you enter in the contact form will remain with me until you request its deletion, revoke your consent to storage, or the purpose for data storage no longer applies (e.g., after your inquiry has been processed). Mandatory legal provisions, in particular retention periods, remain unaffected.",
+          "contact-requests-heading": "Inquiries via Email, Telephone, or Fax",
+          "contact-requests-description": "If you contact me by email, telephone, or fax, your details (name, inquiry) will be stored and processed for the purpose of handling your request. I will not share this data without your consent.",
+          "contact-requests-processing-basis": "The processing is based on Art. 6 para. 1 lit. b GDPR, insofar as your inquiry is necessary for the fulfillment of a contract or for the implementation of pre-contractual measures. Otherwise, the processing is based on my legitimate interest (Art. 6 para. 1 lit. f GDPR) or your consent (Art. 6 para. 1 lit. a GDPR), if this has been requested. You can revoke your consent at any time.",
+          "contact-requests-retention": "The data you send to me will remain with me until you request its deletion, revoke your consent to storage, or the purpose for data storage no longer applies (e.g., after your request has been processed). Mandatory legal provisions, in particular statutory retention periods, remain unaffected."
+        }
+      },
+      "5": {
+        "heading": "5. Analytics Tools and Advertising",
+        "content": {
+          "google-analytics-heading": "Google Analytics",
+          "google-analytics-description": "This website uses Google Analytics, a web analysis service of Google Ireland Limited (“Google”), Gordon House, Barrow Street, Dublin 4, Ireland.",
+          "google-analytics-cookies": "Google Analytics uses cookies – text files that are stored on your computer and enable an analysis of your use of the website. The information generated by the cookie about your use of this website is usually transmitted to a Google server in the USA and stored there.",
+          "google-analytics-legal-basis": "The storage of Google Analytics cookies and the use of this analysis tool are based on my legitimate interest (Art. 6 para. 1 lit. f GDPR) in the analysis of user behavior for the optimization of my web offer and my advertising. If your consent is required, processing is based exclusively on Art. 6 para. 1 lit. a GDPR; you can revoke your consent at any time.",
+          "ip-anonymization-heading": "IP Anonymization",
+          "ip-anonymization-description": "I have activated IP anonymization on this website. This means that your IP address is shortened by Google within the member states of the European Union or in other contracting states of the Agreement on the European Economic Area before being transmitted to the USA. Only in exceptional cases will the full IP address be transmitted to a Google server in the USA and shortened there. Google uses this information to evaluate your use of the website, to compile reports on website activity, and to provide other services related to website and internet use. The IP address transmitted by your browser as part of Google Analytics will not be merged with other Google data.",
+          "browser-plugin-heading": "Browser Plugin",
+          "browser-plugin-description": "You can prevent the storage of cookies by setting your browser software accordingly. Please note, however, that in this case, you may not be able to fully use all functions of this website. In addition, you can prevent the collection of the data generated by the cookie (including your IP address) by Google and the processing of this data by Google by downloading and installing the browser plugin available at the following link:",
+          "browser-plugin-link": "https://tools.google.com/dlpage/gaoptout?hl=en",
+          "data-objection-heading": "Objection to Data Collection",
+          "data-objection-description": "To prevent the collection of your data by Google Analytics, you can click on the following link. An opt-out cookie will be set that prevents the collection of your data on future visits to this website:",
+          "data-objection-link": "javascript:gaOptout()",
+          "google-privacy-policy-heading": "Further Information",
+          "google-privacy-policy-description": "Further information on the handling of user data by Google Analytics can be found in Google's privacy policy:",
+          "google-privacy-policy-link": "https://support.google.com/analytics/answer/6004245?hl=de"
+        }
+      }
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "sections": [
+        {
+          "title": "About my Service",
+          "questions": [
+            {
+              "question": "1. What does it cost to create a website or a web application?",
+              "answer": {
+                "description": "The costs for creating a website or web application depend on various factors that determine the scope and complexity of the project. These include:",
+                "factors": [
+                  {
+                    "title": "Functionality and Scope:",
+                    "description": "A simple website with a few static pages is significantly cheaper than a complex web application with dynamic content, user management, payment integration, or other special functions."
+                  },
+                  {
+                    "title": "Design and User Experience (UX):",
+                    "description": "A custom design tailored to the specific needs and brand requirements of the client requires more time and resources than using pre-made templates."
+                  },
+                  {
+                    "title": "Content Management System (CMS):",
+                    "description": "The choice of a CMS (e.g., WordPress, Joomla) or the development of a custom solution can also influence the costs."
+                  },
+                  {
+                    "title": "Integration of Third-Party Services:",
+                    "description": "Connecting to external APIs or services, such as payment providers, CRM systems, or social media platforms, can cause additional development time and costs."
+                  },
+                  {
+                    "title": "SEO and Performance Optimization:",
+                    "description": "If search engine optimization and performance optimization play a role, this increases the effort, as these measures require specialized knowledge and continuous monitoring."
+                  },
+                  {
+                    "title": "Maintenance and Support:",
+                    "description": "After development, ongoing maintenance, updates, and support should also be taken into account, which should also be budgeted for."
+                  }
+                ],
+                "conclusion": "Therefore, the price cannot be determined as a flat rate. I work closely with my clients to understand their specific requirements and create an individual offer on this basis. This ensures that the project stays within budget while achieving the desired goals."
+              }
+            },
+            {
+              "question": "2. How does your typical development process work?",
+              "answer": {
+                "description": "My development process includes seven steps:",
+                "steps": [
+                  "Requirements Analysis: Together we determine your goals and requirements to find the right solution.",
+                  "Concept & Planning: Based on the requirements, I create a detailed concept and a timeline.",
+                  "Design: A custom, user-friendly design is developed and optimized based on your feedback.",
+                  "Development: The website or web application is programmed, and all functions are integrated.",
+                  "Testing: Comprehensive tests ensure that everything works smoothly.",
+                  "Launch: The application is launched and I support you with the go-live.",
+                  "Maintenance & Support: Even after the launch, I am available for updates, support, and optimizations."
+                ],
+                "conclusion": "This process ensures efficient implementation and the highest quality."
+              }
+            },
+            {
+              "question": "3. How is communication handled during a project?",
+              "answer": {
+                "description": "During a project, clear and regular communication is crucial for success. This is how I proceed:",
+                "steps": [
+                  "Initial Briefing: At the start of the project, a detailed briefing is carried out to clarify all requirements and expectations.",
+                  "Regular Updates: During the development phase, you receive regular status updates, either via email, phone, or in online meetings. This keeps you up to date and allows you to give feedback at any time.",
+                  "Feedback Loops: After each important milestone, feedback is collected and integrated into the further development process. This feedback is important to ensure that the project is going in the right direction.",
+                  "Flexible Communication: I am flexibly available throughout the project and am always ready for questions or adjustments. Communication can take place via various channels such as email, phone, or collaboration tools (e.g., Slack, Teams), depending on your preference.",
+                  "Final Meeting: After the project is completed, a meeting is held to review the final result and discuss any last-minute adjustments.",
+                  "Aftercare: Even after the project is completed, I am available for further questions or support requests and am at your side if needed."
+                ],
+                "conclusion": "This structured communication process ensures that you are always informed and the project is successfully completed."
+              }
+            },
+            {
+              "question": "4. What does aftercare look like after project completion?",
+              "answer": "I am also available for technical support and maintenance work after the project is completed. The exact scope of these services should be defined in advance. This includes fixing bugs, installing updates, and ensuring that everything works smoothly."
+            },
+            {
+              "question": "5. Do you also offer your service to English-speaking clients?",
+              "answer": "Yes, my C2-level language skills enable me to work with English-speaking clients for a project. In addition to communication with the client, the programming is then consistently done in English. Note: The translation of this website into the English language is currently still under development."
+            }
+          ]
+        },
+        {
+          "title": "Technical",
+          "questions": [
+            {
+              "question": "1. What is the difference between a website and a web application?",
+              "answer": {
+                "description": "The difference between a website and a web application can sometimes be fluid, but in general, it is based on the degree of interactivity and functionality that each offers.",
+                "details": [
+                  {
+                    "title": "Website:",
+                    "description": "A collection of web pages with mostly static information. It usually serves to provide information, such as company information, news, blogs, or portfolios. The interaction is mostly limited to viewing content and simple navigation between pages."
+                  },
+                  {
+                    "title": "Web Application:",
+                    "description": "An interactive and dynamic application that runs in a web browser. It enables more complex interactions such as editing documents, online shopping, or managing user accounts. Web applications are usually data-driven and often require user login."
+                  }
+                ],
+                "conclusion": "Websites are thus primarily designed for displaying content, while web applications provide interactive services and functions."
+              }
+            },
+            {
+              "question": "2. How do you guarantee the security and confidentiality of data in the application you develop?",
+              "answer": {
+                "description": "The security and confidentiality of data have the highest priority in my projects. Here are the measures I take to ensure this:",
+                "measures": [
+                  "Data Protection Compliant Development: From the beginning, care is taken to ensure that the application complies with the applicable data protection laws, such as the GDPR. This includes the implementation of mechanisms for consent declarations and the minimization of data collection.",
+                  "Encryption: All sensitive data is encrypted both during transmission and during storage. Proven encryption techniques such as SSL/TLS for data transmission and AES for data storage are used.",
+                  "Access Controls: Strict access controls are implemented to ensure that only authorized users can access certain data. This includes role-based access controls (RBAC) and secure authentication procedures, such as two-factor authentication (2FA).",
+                  "Security Updates and Monitoring: I ensure that the application is always up to date by regularly installing security updates. In addition, the application is continuously monitored to detect and remedy possible security threats at an early stage.",
+                  "Confidentiality: All data processed within the scope of the project is treated with strict confidentiality. This applies both during the development phase and beyond. Furthermore, data is only stored on servers that meet the highest security standards."
+                ],
+                "conclusion": "Through these comprehensive security measures, I ensure that your data in the application is always protected and treated confidentially."
+              }
+            },
+            {
+              "question": "3. What role does artificial intelligence (AI) play in your work?",
+              "answer": {
+                "description": "Well-known AI applications like ChatGPT are playing an increasingly important role in software development. They help to automate processes and solve problems using data analysis and pattern recognition.",
+                "details": [
+                  "I can also make my work more efficient by using AI. This in turn benefits my clients, as I charge fewer working hours due to the reduced workload.",
+                  "Of course, the 'input' from AI-based systems must be meticulously checked by me as a developer before it is included in the codebase. However, even before the advent of AI, it was necessary for developers to carefully check the code they adopted, as code fragments from online sources – for example, 'stackoverflow.com' – were often used."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+},
+          "arbeitsweise": {
+            "heading": "Efficient Software Development",
+            "description": "In software projects, it is extremely important to achieve the optimal balance between high code quality and efficient development time. These aspects must be coordinated as carefully as possible between developers and project partners. This allows for the programming of long-lasting solutions that meet both current requirements and future developments.",
+            "vorteile": {
+              "heading": "The most important advantages of high-quality code for an application:",
+              "details": [
+                {
+                  "title": "Reliability and Stability",
+                  "description": "A stable application is less susceptible to errors and crashes. This helps to avoid downtime and achieve a more consistent user experience."
+                },
+                {
+                  "title": "Cost Savings",
+                  "description": "Well-structured code is easier to maintain and expand. Appropriate documentation is also helpful for this. Both reduce long-term maintenance costs, as changes or additions can be implemented more quickly and with less risk."
+                },
+                {
+                  "title": "Improved User Experience",
+                  "description": "The performance and thus speed with which the app responds to user input are improved by clean and well-structured code. The user benefits from shorter loading times."
+                },
+                {
+                  "title": "Faster Time-to-Market",
+                  "description": "With well-structured and documented code, new features and adjustments can be developed and delivered faster. This allows the client to react more quickly to market demands and secure competitive advantages."
+                },
+                {
+                  "title": "Security",
+                  "description": "Appropriate protective measures during programming close security gaps. For the owner of the application, this means better protection against cyber attacks and increased data security."
+                },
+                {
+                  "title": "Long-term Project Success",
+                  "description": "The sustainability of an application largely depends on its programming. Modular and understandable code facilitates future adjustments and expansions."
+                }
+              ]
+            }
+          }
+        }
+

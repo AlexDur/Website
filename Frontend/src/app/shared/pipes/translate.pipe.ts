@@ -3,7 +3,8 @@ import {TranslateService} from '../services/translate.service';
 import { Observable } from 'rxjs';
 
 @Pipe({
-  name: 'translate'
+  name: 'translate',
+  pure: false
 })
 export class TranslatePipe implements PipeTransform {
   constructor(private translateService: TranslateService) {}

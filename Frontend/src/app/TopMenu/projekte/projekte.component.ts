@@ -38,13 +38,13 @@ export class ProjekteComponent implements OnInit, OnDestroy{
       currentImage: 0
     },
     {
-      images: ['assets/images/komprimiert_beetgott1-red75.webp', 'assets/images/komprimiert_beetgott1-red75.webp'],
+      images: ['assets/images/onehealth.webp'],
       header: 'Mobile App',
-      title: 'Beetguru',
+      title: 'One Health Data Integrator',
       gps: '',
       live: '',
       content: 'Eine mobile App, mit deren Hilfe das eigene Beet so geplant werden kann, dass der Anbau einen höheren Ertrag liefert.',
-      link: 'https://github.com/AlexDur/Beetguru',
+      link: 'https://github.com/AlexDur/One-Health.git',
       currentImage: 0
     },
     {

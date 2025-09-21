@@ -5,7 +5,13 @@ import {MenuItem} from 'primeng/api';
 import {BadgeModule} from 'primeng/badge';
 import {CommonModule} from '@angular/common';
 import {Subscription} from 'rxjs';
-import { DomSanitizer } from '@angular/platform-browser';
+import {SharedModule} from '../../../shared/shared.module';
+
+interface TabContent {
+  key: 'work' | 'education';
+  titleKey: string;
+  description: string;
+}
 
 @Component({
   selector: 'app-kurz-vorstellung',
@@ -13,7 +19,8 @@ import { DomSanitizer } from '@angular/platform-browser';
   imports: [
     CommonModule,
     TabMenuModule,
-    BadgeModule
+    BadgeModule,
+    SharedModule
 
   ],
   templateUrl: './kurz-vorstellung.component.html',
@@ -29,7 +36,7 @@ export class KurzVorstellungComponent implements OnInit, OnDestroy{
 
 
 
-  constructor(private translateService: TranslateService, private sanitizer: DomSanitizer) {}
+  constructor(private translateService: TranslateService) {}
 
   ngOnInit() {
     this.subscription = this.translateService.areTranslationsLoaded().subscribe(loaded => {
@@ -40,8 +47,9 @@ export class KurzVorstellungComponent implements OnInit, OnDestroy{
     });
 
     this.items = [
-      { label: 'Berufliche Stationen'},
-      { label: 'Ausbildung'},
+      { label: 'Education'},
+      { label: 'Work experience'},
+
     ];
 
     this.activeItem = this.items[0];
@@ -51,13 +59,13 @@ export class KurzVorstellungComponent implements OnInit, OnDestroy{
 
     {
       type: 'text',
-      title: 'Berufliche Stationen',
-      description: 'In meiner hauptberuflichen Tätigkeit als Fullstack-Entwickler war ich bereits in der Programmierung verschiedener Anwendungen beteiligt. Sowohl im Bereich "Automotive", als auch im staatlichen Kontext sammelte ich bereits weitreichende Erfahrung. Nebenberuflich habe ich für Menschen aus meinem privaten Umfeld verschiedene Programmierarbeiten übernommen, ehe ich nun vor allem auf der Online-Plattform "Upwork" meine Dienstleistung anbiete.'
+      title: 'Ausbildung',
+      description: 'Uni Hohenheim Agrarwissenschaften 2011-2015 | Universität Wien und Purdue 2015-2020.'
     },
     {
       type: 'text',
-      title: 'Ausbildung',
-      description: 'Uni Hohenheim Agrarwissenschaften 2011-2015 | Universität Wien und Purdue 2015-2020.'
+      title: 'Berufserfahrung',
+      description: 'In meiner hauptberuflichen Tätigkeit als Fullstack-Entwickler war ich bereits in der Programmierung verschiedener Anwendungen beteiligt. Sowohl im Bereich "Automotive", als auch im staatlichen Kontext sammelte ich bereits weitreichende Erfahrung. Nebenberuflich habe ich für Menschen aus meinem privaten Umfeld verschiedene Programmierarbeiten übernommen, ehe ich nun vor allem auf der Online-Plattform "Upwork" meine Dienstleistung anbiete.'
     }
   ];
 
@@ -69,15 +77,10 @@ export class KurzVorstellungComponent implements OnInit, OnDestroy{
   onTabChange(event: any) {
     console.log('Aktives Tab-Item:', event);
 
-    // Überprüft, ob die 'items'-Liste existiert und das 'event'-Objekt gültig ist
     if (this.items && event) {
 
-      // Finden des Index des 'activeItem' in der 'items'-Liste
       const index = this.items.findIndex(item => item.label === event.label);
 
-      // Überprüft, ob ein gültiger Index gefunden wurde
-      // findIndex() gibt std.mäßig "-1" zurück, wenn kein Element gefunden wurde
-      // index !== -1 bedeutet, dass ein Element gefunden wurde
       if (index !== -1) {
         this.activeTabIndex = index;
         console.log('Aktiver Tab-Index geändert:', this.activeTabIndex);

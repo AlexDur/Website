@@ -6,52 +6,17 @@
       </p-tabMenu>
     </div>
 
-    <!-- Content für Berufliche Stationen -->
-    <div *ngIf="activeTabContent?.title === 'Berufliche Stationen'" class="content-container">
-      <div class="content-box-center">
-        <table class="erfahrung-tabelle">
-          <tr>
-            <td class="left-cell">
-              <p class="position-title">Fullstack-Entwickler bei Conet Solutions (Bonn)</p>
-              <p class="position-description">Neuentwicklung einer Fullstack-App für eine große Behörde im Kontext der Wertschöpfungskette von Unternehmen</p>
-            </td>
-            <td class="right-cell">
-              <p class="position-date">Seit 2022</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="left-cell">
-              <p class="position-title">Frontend-Entwickler bei IT-Manufactory (Bonn, Passau)</p>
-              <p class="position-description">Erstellung von Features im Frontend innerhalb verschiedener Module der Digital Machinery Software</p>
-            </td>
-            <td class="right-cell">
-              <p class="position-date">2021-2022</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="left-cell">
-              <p class="position-title">Unternehmensberater bei AFC Consulting (Bonn)</p>
-              <p class="position-description">Agronomische und strategische Beratung in den Bereichen Lebensmittelwertschöpfungskette und Smart Farming</p>
-            </td>
-            <td class="right-cell">
-              <p class="position-date">2018-2021</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
     <!-- Content für Ausbildung -->
     <div *ngIf="activeTabContent?.title === 'Ausbildung'" class="content-container">
       <div class="content-box-center">
         <table class="ausbildung-tabelle">
           <tr>
             <td class="left-cell">
-              <p class="position-title">Universität für Bodenkultur Wien</p>
-              <p class="position-description">Dipl.-Ingenieur Agrarökonomie (äqui. Master of Science)</p>
+              <p class="position-title">{{ 'cv.work.position-title4' | translate | async }}</p>
+              <p class="position-description">{{ 'cv.work.position-description4' | translate | async }}</p>
             </td>
             <td class="right-cell">
-              <p class="position-date">2015-2020</p>
+              <p class="position-date">2015-2018</p>
             </td>
           </tr>
           <tr>
@@ -65,8 +30,8 @@
           </tr>
           <tr>
             <td class="left-cell">
-              <p class="position-title">Universität Hohenheim (Stuttgart)</p>
-              <p class="position-description">Agrarwissenschaften (Bachelor of Science)</p>
+              <p class="position-title">{{ 'cv.work.position-title5' | translate | async }}</p>
+              <p class="position-description">{{ 'cv.work.position-description5' | translate | async }}</p>
             </td>
             <td class="right-cell">
               <p class="position-date">2011-2015</p>
@@ -75,6 +40,43 @@
         </table>
       </div>
     </div>
+
+    <!-- Content für Berufliche Stationen -->
+    <div *ngIf="activeTabContent?.title === 'Berufserfahrung'" class="content-container">
+      <div class="content-box-center">
+        <table class="erfahrung-tabelle">
+          <tr>
+            <td class="left-cell">
+              <p class="position-title">{{ 'cv.work.position-title' | translate | async }}</p>
+              <p class="position-description">{{ 'cv.work.position-description' | translate | async }}</p>
+            </td>
+            <td class="right-cell">
+              <p class="position-date">{{ 'cv.work.position-date' | translate | async }}</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left-cell">
+              <p class="position-title">{{ 'cv.work.position-title2' | translate | async }}</p>
+              <p class="position-description">{{ 'cv.work.position-description2' | translate | async }}</p>
+            </td>
+            <td class="right-cell">
+              <p class="position-date">2021-2022</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="left-cell">
+              <p class="position-title">{{ 'cv.work.position-title3' | translate | async }}</p>
+              <p class="position-description">{{ 'cv.work.position-description3' | translate | async }}</p>
+            </td>
+            <td class="right-cell">
+              <p class="position-date">2018-2021</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
 
   </div>
 </div>
